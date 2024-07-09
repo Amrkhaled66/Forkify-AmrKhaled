@@ -118,12 +118,15 @@ const controlAddRecipe = async function (newRecipe) {
     }, SHOW_RECIPE_DALEY * 1000);
 
     // 7) update the URL
-    window.history.pushState(null,undefined,`#${model.state.recipe.id}`)
-
+    window.history.pushState(null, undefined, `#${model.state.recipe.id}`);
   } catch (err) {
     console.log(err);
     uploadrecipeview.renderError(err);
   }
+};
+
+const newFeature = function () {
+  console.log('Hello');
 };
 
 const init = function () {
@@ -147,7 +150,7 @@ const init = function () {
 
   // control add new recipe
   uploadrecipeview.addHandlerUpload(controlAddRecipe);
-
-  console.log("Amr")
+  
+  newFeature();
 };
 init();
