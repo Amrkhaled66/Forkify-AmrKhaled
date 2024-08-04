@@ -1,5 +1,5 @@
-import { API_URL, KEY, RES_PER_PAGE } from './config';
-import { getJson, sendJson } from './helper';
+import { API_URL, KEY, RES_PER_PAGE } from './config.js';
+import { getJson, sendJson } from './helper.js';
 
 const makeRecipeObj = function (data) {
   const { recipe } = data.data;

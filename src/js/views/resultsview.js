@@ -1,4 +1,4 @@
-import View from './view';
+import View from './view.js';
 import previewView from './previewview.js';
 
 class ResultsView extends View {

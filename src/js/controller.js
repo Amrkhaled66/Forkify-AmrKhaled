@@ -5,7 +5,7 @@ import searchview from './views/searchview.js';
 import paginationview from './views/paginationview.js';
 import bookmarkview from './views/bookmarkview.js';
 import uploadrecipeview from './views/uploadrecipeview.js';
-import { SHOW_RECIPE_DALEY } from './config';
+import { SHOW_RECIPE_DALEY } from './config.js';
 // should dont dontain each dom elemnts dom elemnts in the view
 // https://forkify-api.herokuapp.com/v2
 
